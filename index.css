@@ -1,0 +1,67 @@
+/* span {
+    display: block;
+    height: 170px;
+    width: 170px;
+    position: relative;
+}
+  
+.first {
+    position: fixed;
+    background: red;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+}
+  
+.inner-container {
+    height:50px;
+    background: lightblue;
+    top: 50px;
+    right: 30px;
+    position: fixed;
+    top: 0; 
+}
+  
+.second {
+    background: yellow;
+    bottom: 25px;
+    left: 75px;
+    z-index: 2;
+}
+  
+.third {
+    background: lightgreen;
+    z-index: 0;
+} */
+
+span {
+    display: block;
+    height: 170px;
+    width: 170px;
+    position: absolute;
+}
+  
+.first {
+    background: red;
+    top: 90px;
+    left: 130px;
+    z-index: 1;
+}
+  
+.inner-container {
+    background: lightblue;
+    top:0;
+}
+  
+.second {
+    background: yellow;
+    top: 0;
+    left: 250px;
+    z-index: 2;
+}
+  
+.third {
+    top: 0;
+    background: lightgreen;
+    z-index: 0;
+}
